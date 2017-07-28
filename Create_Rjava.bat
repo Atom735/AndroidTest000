@@ -1,0 +1,1 @@
+"%V_ANDROID_BUILD_TOOLS%/aapt" package -v -f -m -S "%V_DEV_HOME%/res" -J "%V_DEV_HOME%/src" -M "%V_DEV_HOME%/AndroidManifest.xml" -I "%V_ANDROID_PLATFORMS%/android.jar"

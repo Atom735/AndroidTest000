@@ -1,0 +1,1 @@
+"%V_JAVA_HOME%/bin/keytool" -genkeypair -validity 10000 -dname "CN=company name, OU=organisational unit, O=organisation, L=location, S=state, C=country code" -keystore "%V_DEV_HOME%/.keystore" -storepass "password" -keypass "password" -alias "AndroidTestKey" -keyalg RSA -v

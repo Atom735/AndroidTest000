@@ -1,0 +1,1 @@
+"%V_ANDROID_BUILD_TOOLS%/aapt" package -v -f -M "%V_DEV_HOME%/AndroidManifest.xml" -S "%V_DEV_HOME%/res" -I "%V_ANDROID_PLATFORMS%/android.jar" -F "%V_DEV_HOME%/bin/AndroidTest.unsigned.apk" "%V_DEV_HOME%/bin"

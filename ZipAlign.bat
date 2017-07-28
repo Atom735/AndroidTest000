@@ -1,0 +1,1 @@
+"%V_ANDROID_BUILD_TOOLS%/zipalign" -v -f 4 "%V_DEV_HOME%/bin/AndroidTest.signed.apk" "%V_DEV_HOME%/bin/AndroidTest.apk"

@@ -1,0 +1,1 @@
+"%V_JAVA_HOME%/bin/jarsigner" -verbose -keystore "%V_DEV_HOME%/.keystore" -storepass "password" -keypass "password" -signedjar "%V_DEV_HOME%/bin/AndroidTest.signed.apk" "%V_DEV_HOME%/bin/AndroidTest.unsigned.apk" "AndroidTestKey"

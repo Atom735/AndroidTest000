@@ -1,0 +1,1 @@
+call "%V_JAVA_HOME%/bin/javac" -verbose -d "%V_DEV_HOME%/obj" -classpath "%V_ANDROID_PLATFORMS%/android.jar;%V_DEV_HOME%/obj" -sourcepath "%V_DEV_HOME%/src" %V_DEV_HOME%/src/com/example/p1/*.java

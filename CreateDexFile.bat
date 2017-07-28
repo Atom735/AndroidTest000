@@ -1,0 +1,1 @@
+"%V_ANDROID_BUILD_TOOLS%/dx" --dex --verbose "--output=%V_DEV_HOME%/bin/classes.dex" "%V_DEV_HOME%/obj" "%V_DEV_HOME%/lib"

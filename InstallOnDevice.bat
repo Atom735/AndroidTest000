@@ -1,0 +1,1 @@
+"%V_ANDROID_PLATFORM_TOOLS%/adb" -d install "%V_DEV_HOME%/bin/AndroidTest.apk"
